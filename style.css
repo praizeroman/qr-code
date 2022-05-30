@@ -18,6 +18,7 @@ body{
     padding: 30px;
     border-radius: 15px;
     box-shadow: none;
+    max-height: 80vh;
 }
 
 .card_img{
@@ -34,11 +35,20 @@ body{
     font-weight: 700;
     font: 700;
     font-size: large;
-    color: hsl(218, 44%, 22%);
+    color: hsl(217, 45%, 22%);
     display: flex;
     margin-left: 20px;
+    font-family:  'triomphe-bold-italic', sans-serif;
 }
 
 .text{
-margin-top: 10px;
+font-size: 15px;
+color: hsl(220, 15%, 55%);
+margin-top: 15%;
+}
+
+@media screen and (min-width:375px),(max-width:1440px) {
+    .card{
+        color: #d6e2f0;
+    }
 }
